@@ -8,24 +8,24 @@
       "root": "my-lib",
       "outDir": "dist",
       "assets": [
-        "assets",
-        "favicon.ico"
+        "demo/assets",
+        "demo/favicon.ico"
       ],
-      "index": "index.html",
-      "main": "main.ts",
-      "polyfills": "polyfills.ts",
+      "index": "demo/index.html",
+      "main": "demo/main.ts",
+      "polyfills": "demo/polyfills.ts",
       "test": "test.ts",
       "tsconfig": "tsconfig.app.json",
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "demo/styles.css"
       ],
       "scripts": [],
-      "environmentSource": "environments/environment.ts",
+      "environmentSource": "demo/environments/environment.ts",
       "environments": {
-        "dev": "environments/environment.ts",
-        "prod": "environments/environment.prod.ts"
+        "dev": "demo/environments/environment.ts",
+        "prod": "demo/environments/environment.prod.ts"
       }
     }
   ],
